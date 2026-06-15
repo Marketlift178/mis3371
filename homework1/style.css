@@ -1,0 +1,141 @@
+/*
+Program name: style.css
+Author: Syed Osman
+Date created: June 10, 2026
+Date last edited: June 10, 2026
+Version: 1.0
+Description: External stylesheet for MIS 3371 Homework 1 patient registration form.
+*/
+
+/* Tag selector */
+body {
+    background-color: #eef5f9;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tag selector */
+h1 {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 5px;
+}
+
+/* Tag selector */
+h2 {
+    color: #0b4f6c;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* ID selector */
+#banner {
+    background-color: #0b4f6c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #08384d;
+}
+
+/* ID selector */
+#banner img {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Class selector */
+.form-section {
+    background-color: white;
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+/* Tag selector */
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+/* Tag selector */
+td {
+    padding: 6px;
+    vertical-align: top;
+}
+
+/* Tag selector */
+label {
+    font-weight: bold;
+}
+
+/* Tag selector */
+input, select, textarea {
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+}
+
+/* Name selector */
+input[name="firstName"] {
+    border: 2px solid #0b4f6c;
+}
+
+/* Name selector */
+input[name="lastName"] {
+    border: 2px solid #0b4f6c;
+}
+
+/* Class selector */
+.button-row {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Attribute selector */
+input[type="submit"], input[type="reset"] {
+    background-color: #0b4f6c;
+    color: white;
+    padding: 10px 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Attribute selector with hover */
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #08384d;
+}
+
+/* Link styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Visited hyperlink styling */
+a:visited {
+    color: #d9f2ff;
+}
+
+/* Hover hyperlink styling */
+a:hover {
+    text-decoration: underline;
+}
+
+/* ID selector */
+#footer {
+    background-color: #0b4f6c;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+/* End of style.css */
